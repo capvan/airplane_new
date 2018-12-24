@@ -758,6 +758,7 @@ u {
     flex-direction: column;
     border: 1px solid #e8e9ed;
     align-items: center;
+    max-width: 100%;
 }
 
 .partner__item {
