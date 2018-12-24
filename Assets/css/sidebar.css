@@ -6,3 +6,115 @@
     margin-top: 35px;
     text-align: center;
 }
+
+.menu__list {
+    text-align: left;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(-6px);
+    display: flex;
+}
+
+.menu_row {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.menu_row .menu__list {
+    flex-direction: row;
+}
+
+.menu_row .menu__item {
+    margin-bottom: 0;
+    margin-right: 90px;
+}
+
+.menu_row .menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.menu__item:last-child{
+    margin-bottom: 0;
+}
+
+.menu__item-link {
+    color: #4b73b5;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+.menu__item-link:hover {
+    color: #221f1f;
+}
+
+.menu__item-link::before {
+    content: "";
+    display: inline-block;
+    vertical-align: inherit;
+    width: 24px;
+    height: 18px;
+    /* background:  center center no-repeat; */
+    margin-right: 15px;
+    margin-top: -5px;
+    vertical-align: middle;
+    background: url("/assets/img/icons/spritesheet.png");
+
+}
+
+.menu__item-link--main::before {
+    /* background: url("../img/icons/main_icon.png") center center no-repeat; */
+    width: 17px;
+    height: 18px;
+    background-position: -90px -10px;
+    
+}
+
+.menu__item-link--comments::before {
+    /* background: url("../img/icons/feed_icon.png") center center no-repeat; */
+    width: 20px;
+    height: 18px;
+    background-position: -10px -10px;
+}
+
+.menu__item-link--team:before {
+    /* background: url("../img/icons/team_icon.png") center center no-repeat; */
+}
+
+.menu__item-link--main:hover::before {
+    /* background: url("../img/icons/main_icon_act.png") center center no-repeat; */
+}
+
+.menu__item-link--comments:hover::before {
+    /* background: url("../img/icons/feed_icon_active.png") center center no-repeat; */
+}
+
+.menu__item-link--team:hover::before {
+    /* background: url("../img/icons/team_icon_active.png") center center no-repeat; */
+}
+
+.menu__item--active .menu__item-link {
+    color: #221f1f
+}
+
+.menu__item--active .menu__item-link--main::before {
+    /* background: url("../img/icons/main_icon_act.png") center center no-repeat; */
+}
+
+.menu__item--active .menu__item-link--comments::before {
+    /* background: url("../img/icons/feed_icon_active.png") center center no-repeat; */
+}
+
+.menu__item--active .menu__item-link--team::before {
+    /* background: url("../img/icons/team_icon_active.png") center center no-repeat; */
+}
