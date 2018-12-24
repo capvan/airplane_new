@@ -1,0 +1,31 @@
+.breadcrumps {
+    margin-top: 28px;
+    margin-bottom: 9px;
+}
+
+.breadcrumps__list {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-style: italic;
+    color: #4b73b5;
+}
+
+.breadcrumps__list-item {
+    text-decoration: underline;
+    margin-right: 6px;
+}
+
+.breadcrumps__list-item:before {
+    content: " / ";
+}
+
+.breadcrumps__list-item:first-child:before {
+    content: "";
+}
+
+.breadcrumps__list-item:last-child {
+    text-decoration: none;
+    color: black;
+    margin-right: 0;
+}

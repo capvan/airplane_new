@@ -1,0 +1,44 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__item {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.pagination__item--active {
+    background-color: #4b73b5;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.pagination__title {
+    display: inline-block;
+    color: #656464;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.pagination__page {
+    display: inline-block;
+}
+
+.pagination__list {
+    display: inline-block;
+    font-size: 14px;
+    height: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #221f1f;
+    margin-bottom: 70px
+}
+
+.pagination__link {
+    color: inherit;
+}

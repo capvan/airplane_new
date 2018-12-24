@@ -1,0 +1,16 @@
+.blockquote {
+    background-color: #4bb56b;
+    color: white;
+}
+
+.blockquote__content {
+    max-width: 700px;
+    padding: 50px 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.blockquote__content a {
+    font-weight: 600;
+}

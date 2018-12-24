@@ -1,0 +1,31 @@
+.footer {
+    background-color: #4b73b5;
+    color: #ffffff;
+}
+
+.footer .container {
+    width: 1200px;
+    height: 77px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__col {
+    color: inherit;
+    font-size: 14px;
+}
+
+.footer__col--left {
+    left: 0;
+    line-height: 1.29;
+    margin-top: 11px;
+}
+
+.footer__col--middle {
+    left: 50%;
+    width: 120px;
+}
+
+.footer__col--right {
+    right: 0;
+}
