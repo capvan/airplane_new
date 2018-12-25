@@ -45,15 +45,15 @@
     position: absolute;
     display: inline-block;
     z-index: 1;
-    /*top: 150%;*/
+    top: 150%;
     right: -9999px;
-    width: 130px;
+    width: 140px;
     padding: 18px 11px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 3px 3px 5px 3px rgba(203, 210, 224, .5);
     color: #221f1f;
-    text-align: left;
+    text-align: center;
 }
 
 .header-contact__time:hover .header-contact__shedule {
@@ -61,5 +61,16 @@
     /*top: 0;*/
 }
 
+.header-contact__shedule-on {
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 400;
+    color: #3366cc;
+}
 
+.header-contact__shedule-off {
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000;
+}
 
