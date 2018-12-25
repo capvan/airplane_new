@@ -13,12 +13,10 @@
     list-style: none;
     width: 250px;
     margin-left: 20px;
-    padding: 40px 20px 45px;
+    margin-top: -20px;
+    padding: 10px 20px 20px;
 }
-/*.price__item--active, */
-/*.price__item:hover {*/
-    /*border: 1px solid #e8e9ed;*/
-/*}*/
+
 .price__img {
     width: 60px;
     height: 60px;
@@ -42,7 +40,7 @@
 }
 
 .price__title {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2.6px;
@@ -50,10 +48,15 @@
     padding: 4px 0 11px;
 }
 
-.price_desc {
-    margin: 0 auto;
+.price__desc {
+    margin-top: 20px;
     width: 200px;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-weight: 300;
+}
+
+.price__block {
+    margin-top: 20px
 }
 
 .price__block-list {
