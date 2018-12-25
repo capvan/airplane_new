@@ -1,7 +1,12 @@
+.partner {
+    border: 1px solid #e8e9ed;
+    width: 270px;
+    margin: -15px;
+}
+
 .partner__list {
     display: flex;
     flex-direction: column;
-    border: 1px solid #e8e9ed;
     align-items: center;
     max-width: 100%;
 }
@@ -19,4 +24,10 @@
 
 .partner__item-img:hover {
     filter: grayscale(0);
+}
+
+.partner__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 20px 30px;
 }
