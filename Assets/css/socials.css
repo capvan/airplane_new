@@ -27,6 +27,11 @@
     object-fit: scale-down;
 }
 
+.social__item:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
 .socials_aside {
     text-align: center;
 }

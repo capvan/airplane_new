@@ -52,6 +52,9 @@ body {
     letter-spacing: 2.4px;
 }
 
+.visual__button:after {
+    background: url(/assets/img/icons/button_icon.png) center center no-repeat;
+}
 .button__intro-link:hover {
     background-color: #1c5bc3;
     color: white; 
