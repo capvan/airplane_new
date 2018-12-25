@@ -1,14 +1,15 @@
 .blockquote {
-    background-color: #4bb56b;
+    background-color: #4b73b5;
     color: white;
 }
 
 .blockquote__content {
     max-width: 700px;
-    padding: 50px 30px;
-    font-size: 18px;
+    padding: 30px 20px;
+    font-size: 16px;
     margin: 0 auto;
     line-height: 30px;
+    margin-top: -15px;
 }
 
 .blockquote__content a {
