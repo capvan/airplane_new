@@ -4,38 +4,68 @@
     display: block;
 }
 
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+}
+
 .sprite-feed_icon {
     width: 20px;
     height: 18px;
-    background-position: -10px -10px;
+    background-position: -36px -10px;
 }
 
 .sprite-feed_icon_active {
     width: 20px;
     height: 18px;
-    background-position: -50px -10px;
+    background-position: -76px -10px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -116px -10px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -151px -10px;
 }
 
 .sprite-main_icon {
     width: 17px;
     height: 18px;
-    background-position: -90px -10px;
+    background-position: -183px -10px;
 }
 
 .sprite-main_icon_act {
     width: 17px;
     height: 18px;
-    background-position: -127px -10px;
+    background-position: -220px -10px;
 }
 
 .sprite-team_icon {
     width: 23px;
     height: 18px;
-    background-position: -164px -10px;
+    background-position: -257px -10px;
 }
 
 .sprite-team_icon_active {
     width: 23px;
     height: 18px;
-    background-position: -207px -10px;
+    background-position: -300px -10px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -343px -10px;
+}
+
+.sprite-vk {
+    width: 14px;
+    height: 8px;
+    background-position: -374px -10px;
 }
