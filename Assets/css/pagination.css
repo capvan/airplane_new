@@ -43,6 +43,6 @@
     color: inherit;
 }
 
-.pagination__list:hover {
+.pagination__link:hover {
     color: #00b3ff;
 }
