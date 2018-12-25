@@ -106,7 +106,7 @@
     width: 0;
     height: 0;
     border-radius: 50%;
-    background-color: #4b73b5;
+    background-color: #1c5bc3;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -114,7 +114,7 @@
 }
 
 .form__radio-input:checked + .form__radio-fake {
-    border: 1px solid #4b73b5;
+    border: 1px solid #1c5bc3;
 }
 
 .form__radio-input:checked + .form__radio-fake:after {
@@ -129,7 +129,7 @@
 .button {
     display: inline-block;
     padding: 15px 20px;
-    background-color: #4b73b5;
+    background-color: #1c5bc3;
     outline: none;
     border: 1px solid transparent;
     border-radius: 3px;

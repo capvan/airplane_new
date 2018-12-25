@@ -28,9 +28,14 @@
     text-decoration: none;
 }
 
+.header-contact__time {
+    line-height: 15px;
+}
+
 .header-contact__time-link {
     opacity: 0.7;
     font-size: 14px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255);
+    text-decoration: underline;
 }
