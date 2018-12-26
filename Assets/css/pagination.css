@@ -8,6 +8,7 @@
     display: inline-block;
     margin-right: 10px;
     border-radius: 3px;
+    vertical-align: middle;
 }
 
 .pagination__item--active {
@@ -41,6 +42,7 @@
 
 .pagination__link {
     color: inherit;
+    vertical-align: middle;
 }
 
 .pagination__link:hover {
