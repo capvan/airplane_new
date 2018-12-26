@@ -24,6 +24,7 @@
 .socials__item-link:hover {
     background-color: #ABCDEF;
     border-radius: 50%;
+    transition: background-color .5s;
 }
 
 .social__item-logo {
