@@ -70,7 +70,7 @@
 }
 
 .price__block-item::before {
-    background: #4b73b5;
+    background: black;
     border-radius: 50%;
     content: '';
     width: 5px;
