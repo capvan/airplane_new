@@ -14,7 +14,6 @@ body {
     height: 100%;
     background-image: url("../img/background.png");
     background-size: cover;
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
 }
@@ -40,6 +39,8 @@ body {
 }
 
 .button__intro-link  {
+    display: flex;
+    justify-content: center;
     padding: 15px 20px;
     background-color: transparent;
     border: 1px solid #1c5bc3;
@@ -49,12 +50,26 @@ body {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: 2px;
 }
 
 .button__intro-link:hover {
     background-color: #1c5bc3;
     color: white; 
+}
+
+.button__intro-link:after {
+    content: "";
+    /*display: inline-block;*/
+    width: 17px;
+    height: 18px;
+    background: url("../img/icons/spritesheet.png") -183px -10px;
+    margin-left: 5px;
+    transform: translate(0%, -10%);
+}
+
+.button__intro-link:hover:after {
+    background: url("../img/icons/main_icon_white.png");
 }
 
 .index__logo-image {
