@@ -15,10 +15,23 @@
     height: 20px;
     border-radius: 50%;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     margin-top: 9px;
-    /*transition: background-color .5s;*/
+}
+
+.socials__item-link::after {
+    content: "";
+    background-image: url("../img/icons/spritesheet.png");
+    background-repeat: no-repeat;
+}
+
+.socials__item-link--vk:after{
+    width: 14px;
+    height: 8px;
+    background-position: -374px -10px;
 }
 
 .socials__item-link:hover {
