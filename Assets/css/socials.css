@@ -26,12 +26,34 @@
     content: "";
     background-image: url("../img/icons/spritesheet.png");
     background-repeat: no-repeat;
+    display: block;
 }
 
 .socials__item-link--vk:after{
     width: 14px;
     height: 8px;
     background-position: -374px -10px;
+}
+
+.socials__item-link--fb:after {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+}
+.socials__item-link--google:after {
+    width: 15px;
+    height: 9px;
+    background-position: -116px -10px;
+}
+.socials__item-link--twitter:after {
+    width: 11px;
+    height: 9px;
+    background-position: -343px -10px;
+}
+.socials__item-link--mail:after {
+    width: 12px;
+    height: 9px;
+    background-position: -151px -10px;
 }
 
 .socials__item-link:hover {
