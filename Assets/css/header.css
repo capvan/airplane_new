@@ -22,6 +22,7 @@
 }
 
 .header-contact__phone {
+    display: block;
     color: inherit;
     font-style: normal;
     font-size: 22px;
@@ -29,6 +30,7 @@
 }
 
 .header-contact__time {
+    display: inline-block;
     line-height: 15px;
     position: relative;
     color: #221f1f;
@@ -54,10 +56,12 @@
     box-shadow: 3px 3px 5px 3px rgba(203, 210, 224, .5);
     color: #221f1f;
     text-align: center;
+    opacity: 0;
 }
 
 .header-contact__time:hover .header-contact__shedule {
     right: 0px;
+    opacity: 1;
     /*top: 0;*/
 }
 
